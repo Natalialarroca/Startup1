@@ -1,0 +1,21 @@
+.main{
+    .clientes{
+        background: #2d353e;
+        padding: 40px 0;
+
+        .titulo {
+            text-align: center;
+            font-family: $fuente_principal;
+            font-weight: 300;
+            font-size: 32px;
+            color: $blanco;
+            margin-bottom: 40px;
+        }
+        .cliente {
+            text-align: center;
+            a{
+                display: block;
+            }
+        }
+ }
+}

@@ -1,0 +1,30 @@
+footer {
+    .direccion,
+    .social{
+        text-align: center;
+        padding: 20px 0;
+        a{
+            padding: 10px;
+            display: inline-block;
+            margin: 0 20px;
+            width: 50px;
+            font-size: 22px;
+            color: $blanco;
+            background: $negro;
+            border-radius: 100px;
+            &:hover{
+                text-decoration: none;
+            }
+            &.whatsapp{
+                background: $verde;
+            }
+            &.instagram{
+                background: $fucsia;
+            }
+            &.linkedin{
+                background: $celeste;
+            }
+           
+        }
+    }
+}
